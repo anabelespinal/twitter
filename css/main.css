@@ -1,0 +1,40 @@
+body {
+	text-align: center;
+	box-sizing: border-box;
+}
+h1 {
+	font-family: cursive;
+	color: #520404;
+}
+.textArea {
+	width: 500px;
+	margin: 20px;
+	border: 2px solid #821919;
+	background-color: #F2D8D8;
+}
+.boton {
+	padding: 1%2%;
+	font-family: cursive;
+	background-color: #36AC70;
+	border: transparent;
+	border-radius: 50px;
+}
+.boton:hover {
+	background-color: #387450;
+}
+.contenedor {
+	width: 700px;
+	background-color: #E0F3ED;
+	margin: 20px 300px;
+	padding: 20px;
+}
+.comentarios {
+	font-family: cursive;
+	background-color: #8EDCF2;
+	padding: 20px;
+	font-weight: bold;
+	margin: 10px;
+}
+
+
+
