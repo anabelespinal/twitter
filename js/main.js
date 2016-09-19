@@ -1,6 +1,7 @@
 window.onload = function(){
 	var enviar = document.getElementById("enviar");
 	enviar.onclick = function(){
+		event.preventDefault();
 		var comentario = document.getElementById("comentario").value;       //setAtribute("class","comentarios");
 		var repo = document.createElement("div");
 		var textnode = document.createTextNode(comentario);
