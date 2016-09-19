@@ -10,10 +10,10 @@ window.onload = function(){
 		document.getElementById("comentario").value = "";
 	}; 
 	var textArea = document.getElementById("comentario");
-	textArea.onfocus = function(){
+	textArea.onmouseover = function(){
 		textArea.style.height = "60px";
 	};
-	textArea.onblur = function(){
+	textArea.onmouseout = function(){
 		textArea.style.height = "30px";
 	};
 }
