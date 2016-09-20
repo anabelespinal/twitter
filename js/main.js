@@ -43,13 +43,13 @@ window.addEventListener("load", function(){
     if(longitud >= 130){
     	contador.setAttribute("class", "rojo");
     } 
-    if(longitud > 140){
+    if(longitud > max){
     	contador.setAttribute("class", "rojo");
     	boton.disabled = true;
     } 
-    // if (longitud == 0){
-  	 //  boton.disabled = true;
-    // }
+    if (longitud == 0){
+  	  boton.disabled = true;
+    }
   });
 
 	var textarea = document.getElementById("comentario");
