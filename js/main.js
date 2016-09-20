@@ -50,14 +50,6 @@ window.addEventListener("load", function(){
     if (longitud == 0){
   	  boton.disabled = true;
     }
-    if (longitud == 140){
-  	   boton.disabled = true;   
-    }
-    if(event.keyCode == 13){
-    	var height = comentario.style.height;
-    	var incremento = height + "10px"
-    	document.getElementById("comentario").style.height = incremento;
-    }
   });
 
 	var textarea = document.getElementById("comentario");
