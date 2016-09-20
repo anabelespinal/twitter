@@ -14,9 +14,15 @@ window.addEventListener("load", function(){
 	function agregarMensaje(valorComentario){
 		var div = document.createElement("div");
 		div.setAttribute("class","comentarios");
+		var divDos = document.createElement("div");
+		divDos.setAttribute("class","hora")
+		var nuevoDato = new Date();
+    var hora = nuevoDato.toLocaleTimeString();
 		div.innerText = valorComentario;
+		divDos.innerText = hora;
 		var comentarios = document.getElementById("contenedorComentarios");
-		comentarios.insertBefore(div, comentarios.childNodes[0]);
+		comentarios.insertBefore(div, comentarios.childNodes[0])
+		comentarios.insertBefore(divDos, comentarios.childNodes[1]);
 	};
 
 	comentario.addEventListener("keydown", function(){
@@ -53,17 +59,46 @@ window.addEventListener("load", function(){
     	document.getElementById("comentario").style.height = incremento;
     }
   });
-	var textarea = document.getElementById("comentario");
 
-  textarea.addEventListener('keydown', autosize);
+	var textarea = document.getElementById("comentario");
+	textarea.addEventListener('keydown', textareaheight);
              
-	function autosize(){
+	function textareaheight(){
 		var el = this;
- setTimeout(function(){
-		el.style.cssText = 'height:auto; padding:0';
-    // for box-sizing other than "content-box" use:
-    // el.style.cssText = '-moz-box-sizing:content-box';
-    el.style.cssText = 'height:' + el.scrollHeight + 'px';
-  },0);
- }
+ 		setTimeout(function(){
+			el.style.cssText = 'height:auto; padding:0';
+	    el.style.cssText = 'height:' + el.scrollHeight + 'px';
+  	},0);
+ 	}
 }); 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
