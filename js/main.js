@@ -25,7 +25,7 @@ window.addEventListener("load", function(){
 		comentarios.insertBefore(divDos, comentarios.childNodes[1]);
 	};
 
-	comentario.addEventListener("keydown", function(){
+	comentario.addEventListener("keyup", function(){
 		boton.disabled = false;
     var max = 140;
     var longitud = comentario.value.length;
