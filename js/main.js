@@ -13,6 +13,7 @@ window.addEventListener("load", function(){
 
 	function agregarMensaje(valorComentario){
 		var div = document.createElement("div");
+		div.setAttribute("class","comentarios");
 		div.innerText = valorComentario;
 		var comentarios = document.getElementById("contenedorComentarios");
 		comentarios.insertBefore(div, comentarios.childNodes[0]);

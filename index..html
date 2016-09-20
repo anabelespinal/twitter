@@ -1,20 +1,29 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="es">
 <head>
 	<meta charset="utf-8">
 	<title>twitter leccion 26</title>
 	<link rel="shourtcut icon" href="twitter.ico">
+	<link rel="stylesheet" type="text/css" href="fonts/style.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
 	<h1>DEJAME TU COMETARIOS !!!</h1>
-	<label id="labelcontador">caracteres restantes:</label>
-	<div id="contador">140</div>
-	<form>
-		<textarea id="comentario" placeholder="escribe tu comentario aquí!" class="textArea"></textarea>
-		<br>
-		<button id="enviar" type="submit" class="boton" disabled="true">ENVIAR COMENTARIO</button>
-	</form>
+	<div class="container">
+		<form>
+			<textarea id="comentario" placeholder="escribe tu comentario aquí!"></textarea>
+			<br>
+			<i class="icon-home"></i>
+			<i class="icon-pencil"></i>
+			<i class="icon-mic"></i>
+			<i class="icon-folder-open"></i>
+			<i class="icon-price-tags"></i>
+			<i class="icon-happy"></i>
+			<button id="enviar" type="submit" class="boton" disabled="true">ENVIAR COMENTARIO</button>
+		</form>
+	</div>
+	<label>caracteres restantes:</label>
+	<span id="contador">140</span>
 	<div id="contenedorComentarios" class="contenedor"></div>
 	
 

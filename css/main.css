@@ -1,31 +1,60 @@
-body {
-	text-align: center;
+body { 
 	box-sizing: border-box;
+	background-image: url(../burbuja.jpg);
+	background-repeat: no-repeat;
+	background-size: auto;
 }
 h1 {
-	font-family: cursive;
-	color: #520404;
+	font-weight: bold;
+	font-size: 400%;
+	font-family: monospace;
+	color: black;
+	text-align: center;
 }
-.textArea {
+.container {
+	margin-left: 25%;
+	margin-bottom: 1%;
 	width: 40%;
-	margin: 4%;
-	border: 0.7 solid #821919;
+	padding: 3% 4%;
+	background-color: rgba(255, 134, 159, 0.4); 
+	border-radius: 3em;
+}
+textArea {
+	width: 90%;
+	padding: 1% 3%;
+	margin-bottom: 4%;
+	border: transparent;
+	border-radius: 1em; 
 }
 .boton {
-	padding: 1%2%;
+	margin-left: 20%;
+	padding: 3% 4%;
 	font-family: cursive;
-	background-color: #36AC70;
+	font-weight: bold;
+	background-color: rgba(255, 17, 25, 0.5);;
 	border: transparent;
-	border-radius: 50px;
+	border-radius: 1em;
 }
 .boton:hover {
-	background-color: #387450;
+	background-color: deeppink;
 }
-.contenedor {
-	width: 70%;
-	background-color: #E0F3ED;
-	margin: 4% 15%;
-	padding: 1%;
+i {
+	display: inline-block;
+	font-size: 150%;
+	margin-left: 1%;
+}
+i:hover {
+	color: deepskyblue;
+}
+label {
+	color: darkred;
+	font-size: 120%;
+	margin-left: 30%;
+}
+span {
+	padding: 0.5% 1%;
+	margin-left: 2%;
+	border: 2px solid black;
 }
 .verde {
 	color: green;
@@ -36,14 +65,21 @@ h1 {
 .negro {
 	color: black;
 }
-/*
-.comentarios {
-	font-family: cursive;
-	background-color: #8EDCF2;
-	padding: 20px;
-	font-weight: bold;
-	margin: 10px;
+.contenedor {
+	margin-top: 3%;
 }
-*/
+.comentarios {
+	margin-top: 1%;
+	color: lightblue;
+	width: 40%;
+	height: 10%;
+	font-family: cursive;
+	background-color: rgba(0, 0, 0, 0.6);
+	padding: 2% 4%;
+	margin-left: 25%;
+	font-weight: bold;
+	border-radius: 1em;
+}
+
 
 
