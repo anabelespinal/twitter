@@ -45,11 +45,11 @@ window.addEventListener("load", function(){
     } 
     if(longitud > 140){
     	contador.setAttribute("class", "rojo");
-    	boton.disabled = "true";
+    	boton.disabled = true;
     } 
-    if (longitud == 0){
-  	  boton.disabled = true;
-    }
+    // if (longitud == 0){
+  	 //  boton.disabled = true;
+    // }
   });
 
 	var textarea = document.getElementById("comentario");
