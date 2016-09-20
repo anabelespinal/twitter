@@ -27,6 +27,12 @@ h1 {
 	margin: 4% 15%;
 	padding: 1%;
 }
+.verde {
+	color: green;
+}
+.rojo {
+	color: red;
+}
 /*
 .comentarios {
 	font-family: cursive;
