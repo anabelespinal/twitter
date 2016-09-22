@@ -59,5 +59,7 @@ En esta version se creará un function que será llamda en el evento *click* ya 
 
 ###### Con esto tenemos nuestro twitter, ahora le podemos dar los estilos que se desean.
 
+![twitter](http://i65.tinypic.com/e99c3t.jpg)
+
 ***
 		
